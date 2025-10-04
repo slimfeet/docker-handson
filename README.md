@@ -15,4 +15,9 @@ This command runs the container and maps it to port 80 in the container, and por
 ![Access app](4.PNG)
 When accessing http://localhost:80, the user is prompted to allow access to camera. Upon approving access, the face detection app triggers begins face detection, as shown in the visible land marks and the reddish rectangular frame. 
 
+# Unpacking the Application
+Tensorflow is a web-based machine learning framework backed by three different backend engines that are prompted based on the workload at hand. WASM, WebGL and CPU execute operations based on different metrics or resources that are available on modern browsers. 
+- WASM - low-level assembly like language that is compact enough to run on near native speed in ordinary web browsers. Best for high-performance needs without having to rely on GPU.
+- WebGL - its an API which allows for GPU accelerated usage, which incorporates physics and image processing. Best suited for parralelized workloads which can benefit greatly from GPU acceleration. Its commonly used in deep learning models which require convolutions and matrix-multiplications.
+- CPU - is purely javascript execution based on the local machine's capability. Best serves as a fall back when WASM and WebGL fail.   
 

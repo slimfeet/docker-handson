@@ -31,14 +31,14 @@ The front end is served by the index.html file as it serves face detection from 
 - dat.GUI provides the needed graphical interface which allows the user to interact with the application in real time.
 - Stats.min.js serves performance metrics on screen, e.g the FPS that's displayed on the top left corner of the screen. Helps monitor the efficiency of the application while in use.  
 ## index.js
+Stats.js - creates the stats instance which serves to monitor and display the frame rate of the application when in use.  
 ![stats js](11.png)  
-Stats.js - creates the stats instance which serves to monitor and display the frame rate of the application when in use. 
-![tensor flow](12.png)  
 Tensorflow.js - allows switching in between different computational models, based on performance and compatibility of the device running the app.  
+![tensor flow](12.png)  
+setupCamera function - its the one that prompts the user to allow webcam to be used by the app based on requests served by the mediadevices web api.  
 ![setup camera](14.png)  
-setupCamera function - its the one that prompts the user to allow webcam to be used by the app based on requests served by the mediadevices web api.
+Blazeface - this is the model which is relied upon by the render prediction function to detect faces in images.  
 ![blaze face](15.png)  
-Blazeface - this is the model which is relied upon by the render prediction function to detect faces in images. 
 ## The tf-backend-wasm.js 
 Is part of the tensorflow.js library, which serves to initialize the WASM backend, and to interact with WASM binaries.
 ## The tfjs-backend-wasm-simd.wasm 

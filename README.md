@@ -34,7 +34,7 @@ The front end is served by the index.html file as it serves face detection from 
 ![stats js](11.png)  
 Stats.js - creates the stats instance which serves to monitor and display the frame rate of the application when in use. 
 ![tensor flow](12.png)  
-Tensorflow.js - allows switching in between different computational models, based on performance and compatibility of the device running the app. 
+Tensorflow.js - allows switching in between different computational models, based on performance and compatibility of the device running the app.  
 ![setup camera](14.png)  
 setupCamera function - its the one that prompts the user to allow webcam to be used by the app based on requests served by the mediadevices web api.
 ![blaze face](15.png)  
